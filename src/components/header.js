@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import './header.module.css'
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <div className="navigation">
     <h1 style={{ margin: 0 }}>
       <Link
@@ -12,7 +12,6 @@ const Header = ({ siteTitle }) => (
           textDecoration: 'none',
         }}
       >
-        {siteTitle}
       </Link>
     </h1>
 

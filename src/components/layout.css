@@ -20,9 +20,6 @@ section,
 summary {
   display: block;
 }
-header {
-  width:100%;
-}
 
 audio,
 canvas,
@@ -621,7 +618,7 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 980px) {
   html {
     font-size: 100%;
   }

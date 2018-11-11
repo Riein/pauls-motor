@@ -2,18 +2,22 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
-.navigation {
+.navigationOuter {
     margin: 0 auto;
-    background-color: rgba(255, 255, 255, 0.9);
     overflow-y: auto;
-    text-align: center;
     left: 0;
     top: 0;
     z-index: 10000; /* Ensures navigation bar is always on top */
 }
 
+.navigationInner {
+    padding: 1.45rem 1.0875rem;
+}
+
 ul {
     padding:0;
+    text-align: center;
+    list-style: inside;
 }
 
 li {
@@ -23,24 +27,6 @@ li {
     font-size: 20px;
     font-weight: 300;
     margin: 16px 24px;
-}
-
-a:link {
-    text-decoration: none;
-    color: black;
-}
-
-a:visited {
-    text-decoration: none;
-    color: black;
-}
-
-a:hover {
-    text-decoration: none;
-}
-
-a:active {
-    text-decoration: none;
 }
 
 #logo {

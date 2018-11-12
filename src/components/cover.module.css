@@ -22,15 +22,6 @@
     padding: 30px 10px;
   }
 
-  h1 {
-      font-size: 1.9rem;
-  }
-
-  h2 {
-      font-size: 1.22rem;
-  }
-
-  h1, h2 {
-    background-color: rgba(20, 20, 20, 0.1);
+  .coverFont {
     font-family: 'Abel', sans-serif;
   }

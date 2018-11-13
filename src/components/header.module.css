@@ -14,13 +14,13 @@
     padding: 1.45rem 1.0875rem;
 }
 
-ul {
+.headerul {
     padding:0;
     text-align: center;
     list-style: inside;
 }
 
-li {
+.headerli {
     color:#14213D;
     font-family: 'Abel', sans-serif;
     display: inline-block; /* Displays each li item horizontally */
@@ -29,7 +29,7 @@ li {
     margin: 16px 24px;
 }
 
-#logo {
+.logo {
     font-family: 'Amatic SC', cursive;
     font-size: 30px;
   }

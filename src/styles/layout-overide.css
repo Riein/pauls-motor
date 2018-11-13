@@ -20,3 +20,34 @@
     margin: 0 auto;
     font-size: 18px;
   }
+
+  .services-content {
+    width: 80%;
+    margin: 20px 25%;
+  }
+  
+  .services-left {
+    float:left;
+    margin-right: 0%;
+    width:50%;
+  }
+  .services-right {
+    float:right;
+    width: 50%;
+    margin-right: 0%;
+  }
+  
+  .services-content li {
+    color:#14213D;
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 16px 24px;
+  }
+
+  h4.services-h4 {
+    color: rgb(22, 44, 205);
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+  }

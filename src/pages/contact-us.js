@@ -1,4 +1,5 @@
 import React from 'react'
+import GoogleMapsContainer from '../components/googlemapscontainer'
 
 import Layout from '../components/layout'
 
@@ -16,6 +17,9 @@ const ContactUsPage = () => (
         <h2>Hours: Monday to Friday - 9AM to 5PM</h2>
       </div>
     </div>
+
+    <GoogleMapsContainer />
+    
   </Layout>
 )
 

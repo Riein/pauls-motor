@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './footer.module.css'
 
 const Footer = () => (
-    <div >
+    <div>
         <div className={styles.footer} >
         <ul className={styles.footerul}>
           <li className={styles.footerli}>

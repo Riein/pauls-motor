@@ -8,4 +8,5 @@ yarn-error.log
 .DS_Store
 
 # misc
-.env
+.env.*
+CNAME

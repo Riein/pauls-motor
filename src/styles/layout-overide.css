@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+    font-family: 'Abel', sans-serif;
+}
+.section1 {
+    position: relative;
+}
+
+.section1Header {
+    font-family: 'Raleway', sans-serif;
+    color: rgb(22, 44, 150);
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.section1Body {
+    width: 60%;
+    text-align: left;
+    margin: 0 auto;
+    font-size: 18px;
+  }
+
+  .services-content {
+    width: 80%;
+    margin: 0px 25%;
+  }
+  
+  .services-left {
+    float:left;
+    margin-right: 0%;
+    width:50%;
+  }
+  .services-right {
+    float:right;
+    width: 50%;
+    margin-right: 0%;
+  }
+  
+  .services-content li {
+    color:#14213D;
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 16px 24px;
+  }
+
+  h4.services-h4 {
+    color: rgb(22, 44, 205);
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+  }
+
+  .contact-details {
+    width: 50%;
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(22, 44, 205);
+  }

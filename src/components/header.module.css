@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+.navigationOuter {
+    margin: 0 auto;
+    overflow-y: auto;
+    left: 0;
+    top: 0;
+    z-index: 10000; /* Ensures navigation bar is always on top */
+}
+
+.navigationInner {
+    padding: 1.45rem 1.0875rem;
+}
+
+.headerul {
+    padding:0;
+    text-align: center;
+    list-style: inside;
+}
+
+.headerli {
+    color:#14213D;
+    font-family: 'Abel', sans-serif;
+    display: inline-block; /* Displays each li item horizontally */
+    font-size: 20px;
+    font-weight: 300;
+    margin: 16px 24px;
+}
+
+.logo {
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+  }
